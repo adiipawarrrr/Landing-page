@@ -1,0 +1,118 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f5f7fb;
+}
+
+/* Header */
+
+header{
+background:linear-gradient(135deg,#007BFF,#00c6ff);
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:10px 25px;
+background:white;
+color:#007BFF;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+}
+
+/* Sections */
+
+section{
+padding:60px 20px;
+text-align:center;
+}
+
+h2{
+margin-bottom:20px;
+}
+
+/* Services */
+
+.service-container{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:20px;
+width:250px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+/* Testimonials */
+
+#testimonials{
+background:#f1f1f1;
+}
+
+.testimonial{
+background:white;
+padding:20px;
+margin:10px auto;
+max-width:500px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+/* Contact */
+
+.contact-container{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+form{
+display:flex;
+flex-direction:column;
+width:300px;
+}
+
+input,textarea{
+margin:10px 0;
+padding:10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+button{
+background:#007BFF;
+color:white;
+border:none;
+padding:10px;
+border-radius:5px;
+cursor:pointer;
+}
+
+/* Footer */
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:20px;
+}
